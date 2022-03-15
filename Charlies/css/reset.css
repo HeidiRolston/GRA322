@@ -12,7 +12,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-h3 {
+h2 {
     font-size: 30px;
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
@@ -40,8 +40,8 @@ table {
   }
 
 img{
-    float: center;
-    max-width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
   }
 
 .wrapper {
@@ -68,7 +68,7 @@ img{
     background: tomato;
     height: 300px;
     text-align: left;
-    background-image: url("https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://www.pexels.com/photo/white-ceramic-teacup-428310/");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
