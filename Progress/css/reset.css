@@ -1,0 +1,159 @@
+/*
+  Modern CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: rgb(114, 114, 114);
+}
+
+a:hover {
+    color: rgb(114, 114, 114);
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+    border: 0px solid #F47E20;
+    color: #6D3522;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+
+img{
+    float: center;
+    max-width: 100%;
+  }
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    margin: 2px;
+    flex: 1 100%;
+    border-radius: 8px;
+}
+
+.menu {
+    background: rgb(204, 204, 204);
+    height: 70px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.header {
+    background: tomato;
+    height: 300px;
+    text-align: left;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 50px;
+}
+
+.footer {
+    background: rgb(204, 204, 204);
+    height: 70px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.info {
+    background: white;
+    height: 200px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.main {
+    text-align: left;
+    background: white;
+    height: 300px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.aside1 {
+    text-align: left;
+    background: white;
+    height: 500px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.aside2 {
+    text-align: left;
+    background: white;
+    height: 400px;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+@media all and (min-width: 800px) {
+    .main {
+        flex: 3;
+    }
+
+    .aside1 {
+        order: 3;
+    }
+
+    .aside2 { 
+        order: 4;
+    }
+    .main {
+        order: 2;
+    }
+    .footer {
+        order: 4;
+    }
+    .info {
+        order: 5;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 3;
+    }
+}
