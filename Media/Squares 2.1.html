@@ -4,9 +4,8 @@
     <style>
         body {
             font-family: "Times New Roman", sans-serif;
-            color: white;
+            color: black;
             text-align: center;
-			background-color: black;
         }
 		h1 {
             font-weight: bold;
@@ -26,12 +25,12 @@
 			text-align: left;
         }
 		a:link {
- 		 color: lightblue;
+ 		 color: rebeccapurple;
  		 background-color: transparent;
  		 text-decoration: underline;
 		}
         .parentClass {
-            background: white;
+            background: black;
             width: 500px;
             display: flex;
 			align-items: center;
@@ -39,19 +38,35 @@
             height: 500px;
         }
         .firstchild {
-          width: 150px;
-            height: 150px;
+          width: 350px;
+            height: 350px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
         }
         .childClass {
-            width: 150px;
-            height: 150px;
+            width: 350px;
+            height: 350px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-  			background: black
+  			background: white
+        }
+		.secondchild {
+            width: 200px;
+            height: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+  			background: black;
+        }
+		.thirdchild {
+            width: 50px;
+            height: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+  			background: white;
         }
     </style>
 </head>
@@ -76,15 +91,16 @@
 	    </blockquote>
      </blockquote>
   </blockquote>
-		<a href="Squares 2.1.html">Next Square</a>
-		<a href="Squares 1.1.html">Past Square</a>
+		<a href="Squares 1.2.html" title="">Next Square</a>
+		<a href="Squares 1.2.html" title="Square 1.2">Past Square</a>
 		
 <div class="parentClass">
         <div class="childClass firstchild">
+			<div class="secondchild">
+				<div class="thirdchild">
         </div>
 		
 		
 </div>
 </body>
 </html>
-
