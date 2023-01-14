@@ -45,19 +45,32 @@
 			display: flex;
         }
 		.secondchild {
-            background: black;
+            background: white;
 			width: 42.857143vw;
    			height: 42.857143vh;
     		margin: auto;
 			display: flex;
         }
-		.thirdchild {
-            background: white;
-			width: 14.285714vw;
-   			height: 14.285714vh;
+		.grid-container {
+ 			display: grid;
+  			row-gap: 1px;
+		}
+		.item1 {
+			grid-row-start: 1;
+			background: black;
+			width: 2vw;
+   			height: 42.857143vh;
     		margin: auto;
 			display: flex;
-        }
+		}
+		.item2 {
+			grid-row-start: 2;
+			background: black;
+			width: 2vw;
+   			height: 42.857143vh;
+    		margin: auto;
+			display: flex;
+		}
 		div.ex2 {
   		overflow: hidden;
 		}
@@ -65,12 +78,14 @@
 </head>
 <body>	
 <div class="parentClass">
-        <div class="firstchild">
+     <div class="firstchild">
 			<div class="secondchild">
-				<div class="thirdchild">
-        </div>
-		
-		
+				<div class"grid-container">
+					<div class="item1"></div>
+					<div class="item2"></div>
+				</div>
+			</div>
+     </div>
 </div>
 </body>
 </html>
